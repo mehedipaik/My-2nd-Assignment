@@ -102,3 +102,133 @@
   border: none;
   border-radius: 10px;
 }
+/* card section */
+
+.card-header{
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+}
+.card-header-section{
+  justify-content: space-between;
+  text-align: center;
+}
+.card-section{
+  height: 476.78px;
+  width: 367.8px;
+  border: 1px solid #DEF5FF;
+  border-radius: 10px;
+  background: linear-gradient(to top, white,#DEF5FF) ;
+  align-items: center;
+}
+.card-section h3{
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+.card-section h5{
+  font-weight: bold;
+  color: #64C8FF;
+
+}
+.card-section p{
+  font-size: 1rem;
+  color: #808080;
+  font-weight: normal;
+}
+.card-section-2{
+  height: 476.78px;
+  width: 367.8px;
+  border: 1px solid #FFF4DC;
+  border-radius: 10px;
+  background: linear-gradient(to top, white,#FFF4DC) ;
+}
+.card-section-2 h3{
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+.card-section-2 p{
+  font-size: 1rem;
+  color: #808080;
+  font-weight: normal;
+}
+.card-section-2 h5{
+  font-weight: bold;
+  color: orange;
+}
+.card-section-3{
+  height: 476.78px;
+  width: 367.8px;
+  border: 1px solid #F2E8FF ;
+  border-radius: 10px;
+  background: linear-gradient(to top, white,#F2E8FF) ;
+}
+ 
+.card-section-3 h3{
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+.card-section-3 p{
+  font-size: 1rem;
+  font-weight: normal;
+  color: #808080;
+}
+.card-section-3 h5{
+  font-weight: bold;
+  color: #5D58EF;
+}
+.crickle-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.arro-button{
+  margin-top: 50px;
+  width: 60px; 
+  height: 60px; 
+  border: none;
+  background-color: orange; 
+  border-radius: 50%;
+  color: #DEF5FF;
+  font-size: large;
+  font-weight: bold;
+}
+/* story header section */
+.stories-header{
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+}
+.story-3{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+}
+
+
+
+
+
+
+
+
+
+
+/* .arro-button img { */
+  height: 60px;
+  width: 60px;
+  background-color: orange;
+  border-radius: 50%;
+  color: aliceblue;
+}
+/* responsive area */
+@media screen and (max-width:576px) {
+  .navbar, .nav-links, .nav-button{
+    flex-direction: column;
+  }
+  .card-header-section{
+    grid-template-columns: 1fr;
+  }
+}
