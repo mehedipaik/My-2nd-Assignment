@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-regular-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.display-flex{
+  display: flex;
+}
+.quicksand-regular-font{
+  width: 1440px;
+  margin: auto;
+  margin-top: 30px;
+}
+.quicksand-regular-font{
+  background-image: url("../assets/bg.png");
+}
+/* navbar section */
+.navbar{
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+.school{
+  /* margin-left: 30px; */
+  font-size:2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.navbar-logo{
+  justify-content: end;
+}
+.nav-links{
+  font-size:1.4rem;
+  font-weight: bold;
+  gap: 30px;
+}
+.nav-liems-1{
+  list-style: none;
+  text-decoration: none;
+  gap: 30px;
+  color: orange;
+}
+.nav-liems-2{
+  list-style: none;
+  text-decoration: none;
+  gap: 30px;
+  color: #01ACFD;
+}
+.nav-liems-3{
+  list-style: none;
+  text-decoration: none;
+  gap: 30px;
+  color: #05D4DF;
+}
+.nav-liems-4{
+  list-style: none;
+  text-decoration: none;
+  gap: 30px;
+  color: #5D58EF;
+}
+.nav-button{
+  height: 50px;
+  width: 197px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+/* body section style */
+.header-section{
+  justify-content: space-between;
+  gap: 24px;
+  margin-top: 50px;
+}
+.empowering-student{
+  font-size: 3rem;
+}
+#header-span{
+  color: orange;
+}
+#header-span-2{
+  color: #01ACFD;
+}
+.header-description{
+  width: 640px;
+  font-size: 1.1rem;
+  color: black;
+ margin-bottom: 24px; 
+}
+.enroll-button{
+  height: 50px;
+  width: 197px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
